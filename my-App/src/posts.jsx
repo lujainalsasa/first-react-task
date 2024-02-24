@@ -12,9 +12,11 @@ const Posts = () => {
           <Card>
             <Card.Body>
               <Card.Title>Recent Posts</Card.Title>
-              <ul>
+              <ul style={{ backgroundColor: "blue" }}>
                 <li>
-                  <a href="#">Gaza</a>
+                  <a href="#" style={{ color: "white" }}>
+                    Gaza
+                  </a>
                 </li>
               </ul>
             </Card.Body>
